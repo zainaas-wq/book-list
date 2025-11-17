@@ -24,6 +24,7 @@ def add_book(book: dict):
         "id": counter,
         "title": book.get("title"),
         "author": book.get("author")
+            "year": book.get("year"),
     }
     books.append(new_book)
     counter += 1
